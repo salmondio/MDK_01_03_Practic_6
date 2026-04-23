@@ -1,4 +1,4 @@
-package com.example.practic_6;
+package com.example.practic_6.presentations;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,14 +11,10 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.example.practic_6.R;
 import com.example.practic_6.datas.RepoNotes;
 import com.example.practic_6.domains.models.Note;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
